@@ -10,10 +10,14 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('nav-logo').textContent = d.name;
 
   // Hero
-  document.getElementById('hero-eyebrow').textContent = d.heroEyebrow;
-  document.getElementById('hero-tagline').innerHTML =
-    `${d.tagline}<br/><em>${d.taglineEmphasis}</em>`;
-  document.getElementById('hero-desc').textContent = d.heroDescription;
+  const heroEyebrow = document.getElementById('hero-eyebrow');
+  if (heroEyebrow) heroEyebrow.textContent = d.heroEyebrow;
+  
+  const heroTagline = document.getElementById('hero-tagline');
+  if (heroTagline) heroTagline.innerHTML = `${d.tagline}<br/><em>${d.taglineEmphasis}</em>`;
+  
+  const heroDesc = document.getElementById('hero-desc');
+  if (heroDesc) heroDesc.textContent = d.heroDescription;
 
   // Glance card
   const glanceContainer = document.getElementById('glance-stats');
@@ -30,9 +34,11 @@ document.addEventListener('DOMContentLoaded', () => {
   ).join('');
 
   // Skills
-  document.getElementById('skills-title').innerHTML =
-    `${d.skillsSectionTitle}<br/><em>${d.skillsSectionEmphasis}</em>`;
-  document.getElementById('skills-desc').textContent = d.skillsSectionDesc;
+  const skillsTitle = document.getElementById('skills-title');
+  if (skillsTitle) skillsTitle.innerHTML = `${d.skillsSectionTitle}<br/><em>${d.skillsSectionEmphasis}</em>`;
+  
+  const skillsDesc = document.getElementById('skills-desc');
+  if (skillsDesc) skillsDesc.textContent = d.skillsSectionDesc;
 
   const skillsGrid = document.getElementById('skills-grid');
   skillsGrid.innerHTML = d.skills.map((s, i) =>
@@ -64,8 +70,8 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // Experience
-  document.getElementById('exp-title').innerHTML =
-    `${d.experienceSectionTitle}<br/><em>${d.experienceSectionEmphasis}</em>`;
+  const expTitle = document.getElementById('exp-title');
+  if (expTitle) expTitle.innerHTML = `${d.experienceSectionTitle}<br/><em>${d.experienceSectionEmphasis}</em>`;
 
   const timeline = document.getElementById('timeline');
   timeline.innerHTML = d.experience.map(e =>
@@ -82,9 +88,11 @@ document.addEventListener('DOMContentLoaded', () => {
   ).join('');
 
   // Projects
-  document.getElementById('proj-title').innerHTML =
-    `${d.projectsSectionTitle}<br/><em>${d.projectsSectionEmphasis}</em>`;
-  document.getElementById('proj-desc').textContent = d.projectsSectionDesc;
+  const projTitle = document.getElementById('proj-title');
+  if (projTitle) projTitle.innerHTML = `${d.projectsSectionTitle}<br/><em>${d.projectsSectionEmphasis}</em>`;
+  
+  const projDesc = document.getElementById('proj-desc');
+  if (projDesc) projDesc.textContent = d.projectsSectionDesc;
 
   const projGrid = document.getElementById('projects-grid');
   projGrid.innerHTML = d.projects.map(p =>
@@ -104,8 +112,8 @@ document.addEventListener('DOMContentLoaded', () => {
   ).join('');
 
   // Certifications
-  document.getElementById('certs-title').innerHTML =
-    `${d.certsSectionTitle}<br/><em>${d.certsSectionEmphasis}</em>`;
+  const certsTitle = document.getElementById('certs-title');
+  if (certsTitle) certsTitle.innerHTML = `${d.certsSectionTitle}<br/><em>${d.certsSectionEmphasis}</em>`;
 
   const certsGrid = document.getElementById('certs-grid');
   certsGrid.innerHTML = d.certifications.map(c =>
@@ -119,17 +127,30 @@ document.addEventListener('DOMContentLoaded', () => {
   ).join('');
 
   // Contact
-  document.getElementById('contact-heading').innerHTML =
-    `${d.contactHeadline}<br/><em style="color:#555">${d.contactEmphasis}</em>`;
-  document.getElementById('contact-desc').textContent = d.contactDescription;
-  document.getElementById('contact-email').href = `mailto:${d.email}`;
-  document.getElementById('contact-whatsapp').href = "https://wa.me/918770189240";
-  document.getElementById('contact-linkedin').href = d.linkedin;
-  document.getElementById('contact-cv').href = d.cvLink;
+  const contactHeading = document.getElementById('contact-heading');
+  if (contactHeading) contactHeading.innerHTML = `${d.contactHeadline}<br/><em style="color:#555">${d.contactEmphasis}</em>`;
+  
+  const contactDesc = document.getElementById('contact-desc');
+  if (contactDesc) contactDesc.textContent = d.contactDescription;
+  
+  const contactEmail = document.getElementById('contact-email');
+  if (contactEmail) contactEmail.href = `mailto:${d.email}`;
+  
+  const contactWhatsapp = document.getElementById('contact-whatsapp');
+  if (contactWhatsapp) contactWhatsapp.href = `https://wa.me/${d.whatsapp.replace('+', '')}`;
+  
+  const contactLinkedin = document.getElementById('contact-linkedin');
+  if (contactLinkedin) contactLinkedin.href = d.linkedin;
+  
+  const contactCv = document.getElementById('contact-cv');
+  if (contactCv) contactCv.href = d.cvLink;
 
   // Footer
-  document.getElementById('footer-copy').textContent = `© ${d.footerYear} ${d.name}`;
-  document.getElementById('footer-tag').textContent = d.footerTagline;
+  const footerCopy = document.getElementById('footer-copy');
+  if (footerCopy) footerCopy.textContent = `© ${d.footerYear} ${d.name}`;
+  
+  const footerTag = document.getElementById('footer-tag');
+  if (footerTag) footerTag.textContent = d.footerTagline;
 
   // ── Scroll reveal animations ──
   const io = new IntersectionObserver(entries => {
