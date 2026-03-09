@@ -436,11 +436,33 @@ footer p { font-size: 0.74rem; color: var(--mid); letter-spacing: 0.04em; }
 @media (max-width: 900px) {
   nav { padding: 0 1.5rem; }
   .nav-links { display: none; }
-  .hero { padding: 8rem 1.5rem 4rem; }
+  
+  .hero { padding: 7rem 1.5rem 4rem; min-height: auto; }
   .hero-grid { grid-template-columns: 1fr; gap: 3rem; }
-  section { padding: 4.5rem 1.5rem; }
+  h1 { font-size: 2.8rem; }
+  .hero-desc { max-width: 100%; }
+  .hero-actions { flex-direction: column; width: 100%; }
+  .hero-actions .btn { width: 100%; justify-content: center; }
+  
+  .hero-card { padding: 1.5rem; }
+  .hc-stat { flex-direction: column; align-items: flex-start; gap: 0.2rem; }
+  .hc-val { font-size: 1rem; }
+
+  section { padding: 4rem 1.5rem; }
   .skills-3col, .projects-grid, .certs-grid { grid-template-columns: 1fr; }
-  .tl-row { grid-template-columns: 1fr; gap: 0.4rem; }
-  footer { padding: 1.5rem; flex-direction: column; gap: 0.4rem; text-align: center; }
+  .skill-block { padding: 1.8rem; }
+  
+  .tl-row { grid-template-columns: 1fr; gap: 0.6rem; }
+  .tl-period { padding-top: 0; margin-bottom: 0.2rem; }
+
   .contact-section { padding: 5rem 1.5rem; }
+  .contact-link { width: 100%; justify-content: center; }
+  
+  footer { padding: 2rem 1.5rem; flex-direction: column; gap: 0.6rem; text-align: center; }
+}
+
+@media (max-width: 480px) {
+  h1 { font-size: 2.2rem; }
+  .hero-eyebrow { font-size: 0.65rem; }
+  h2 { font-size: 1.8rem; }
 }
