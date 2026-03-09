@@ -22,9 +22,9 @@ const PORTFOLIO = {
   glance: [
     { label: "Location", value: "Gurgaon" },
     { label: "Phone", value: "+91 8770189240" },
-    { label: "Certification", value: "Professional Scrum Master (PSM- I) by Scrum.org" },
+    { label: "Certification", value: "Certified Scrum Master (PSM- I)" },
     { label: "Experience", value: "7+ Years Agile Delivery" },
-    { label: "Domains", value: "E-Commerce · Banking · Fitness Industry · Agentic AI" },
+    { label: "Domains", value: "E-Commerce · Banking · Agentic AI" },
     { label: "Status", value: "Open to roles" },
   ],
   glancePills: [
@@ -38,7 +38,7 @@ const PORTFOLIO = {
   skillsSectionTitle: "Three disciplines,",
   skillsSectionEmphasis: "one direction.",
   skillsSectionDesc:
-    "Operating at the crossroads of product strategy, agile delivery, and hands-on AI product development — across e-commerce, CRM, and Agentic AI domains.",
+    "Operating at the crossroads of product strategy, agile delivery, and hands-on AI product development — across e-commerce, Banking, and Agentic AI domains.",
 
   skills: [
     {
@@ -118,7 +118,7 @@ const PORTFOLIO = {
   aiProjects: [
     {
       title: "Voice Agent — Agentic AI Product",
-      period: "2024 – Present",
+      period: "2026 – Present",
       domain: "Agentic AI",
       points: [
         "End-to-end Agentic AI product with a voice interface, LLM reasoning layer, and n8n automation backend. Handles multi-step tasks autonomously — deployed on Railway with a Supabase PostgreSQL store.",
