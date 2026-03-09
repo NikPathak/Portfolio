@@ -18,7 +18,7 @@ const PORTFOLIO = {
 
   // ── At a Glance Card ──────────────────────────────────────
   glance: [
-    { label: "Location", value: "Gurugram, India" },
+    { label: "Location", value: "Gurgaon" },
     { label: "Phone", value: "+91 8770189240" },
     { label: "Certification", value: "PSM I — Scrum.org" },
     { label: "Experience", value: "7+ Years Agile Delivery" },

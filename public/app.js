@@ -46,6 +46,23 @@ document.addEventListener('DOMContentLoaded', () => {
      </div>`
   ).join('');
 
+  // AI Projects
+  const aiTimeline = document.getElementById('ai-timeline');
+  if (aiTimeline && d.aiProjects) {
+    aiTimeline.innerHTML = d.aiProjects.map(p =>
+      `<div class="tl-row">
+         <div class="tl-period">${p.period}</div>
+         <div>
+           <div class="tl-co">${p.title}</div>
+           <div class="tl-title">${p.domain}</div>
+           <ul class="tl-points">
+             ${p.points.map(pt => `<li>${pt}</li>`).join('')}
+           </ul>
+         </div>
+       </div>`
+    ).join('');
+  }
+
   // Experience
   document.getElementById('exp-title').innerHTML =
     `${d.experienceSectionTitle}<br/><em>${d.experienceSectionEmphasis}</em>`;
