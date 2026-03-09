@@ -18,7 +18,7 @@ const PORTFOLIO = {
 
   // ── At a Glance Card ──────────────────────────────────────
   glance: [
-    { label: "Location", value: "Gurugram, India" },
+    { label: "Location", value: "Gurgaon" },
     { label: "Phone", value: "+91 8770189240" },
     { label: "Certification", value: "PSM I — Scrum.org" },
     { label: "Experience", value: "7+ Years Agile Delivery" },
@@ -245,8 +245,9 @@ const PORTFOLIO = {
     "Open to Senior Scrum Master, AI Product Manager, and Agile Project Manager roles across IT, e-commerce, and AI-native product teams.",
 
   email: "nikhilatoffice@gmail.com",
-  linkedin: "https://linkedin.com/in/nikhil-p-672205218",
-  cvLink: "#",
+  linkedin: "https://www.linkedin.com/in/nikpathak/",
+  cvLink: "https://drive.google.com/file/d/1gHuviWEFfeLxMYPLqcRb5bNIExtl-VY_/view?usp=sharing",
+  whatsapp: "+918770189240",
 
   // ── Footer ────────────────────────────────────────────────
   footerYear: "2026",
