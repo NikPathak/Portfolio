@@ -5,6 +5,8 @@
 //  ✏️  Just change the values below and redeploy.
 //      No need to touch HTML, CSS, or any other file.
 
+const { useCallback } = require("react");
+
 const PORTFOLIO = {
 
   // ── Personal Info ──────────────────────────────────────────
@@ -14,26 +16,26 @@ const PORTFOLIO = {
   taglineEmphasis: "AI-Forward.",
   heroEyebrow: "Open to Senior Scrum Master · AI Product Manager · Agile Project Manager roles",
   heroDescription:
-    "I'm Nikhil Pathak — a Certified Scrum Master (PSM I) and servant leader with 7+ years shipping Agile delivery across e-commerce, fitness CRM, and Agentic AI domains. Proven track record facilitating Scrum ceremonies, removing impediments, coaching Product Owners, and driving Agile transformation across distributed global teams — from LLM integrations and voice agents to production deployments on Vercel and Railway.",
+    "I'm Nikhil Pathak — a Certified Scrum Master (PSM I) and servant leader with 7+ years shipping Agile delivery across e-commerce, fitness CRM, and Agentic AI domains. Proven track record facilitating Scrum ceremonies, removing impediments, coaching Product Owners & dev teams, and driving Agile transformation across distributed global teams — from LLM integrations and voice agents to production deployments on Vercel and Railway.",
 
   // ── At a Glance Card ──────────────────────────────────────
   glance: [
-    { label: "Location", value: "Gurgaon" },
+    { label: "Location", value: "Gurugram" },
     { label: "Phone", value: "+91 8770189240" },
-    { label: "Certification", value: "PSM I — Scrum.org" },
+    { label: "Certification", value: "Professional Scrm Master (PSM- I) by Scrum.org" },
     { label: "Experience", value: "7+ Years Agile Delivery" },
-    { label: "Domains", value: "E-Commerce · Fitness CRM · Agentic AI" },
+    { label: "Domains", value: "E-Commerce · Banking · Fitness Industry · Agentic AI" },
     { label: "Status", value: "Open to roles" },
   ],
   glancePills: [
     "Senior Scrum Master",
-    "AI Product Manager",
     "Agile Project Manager",
+    "AI Product Manager",
     "Agentic AI Builder",
   ],
 
   // ── Skills / Expertise ────────────────────────────────────
-  skillsSectionTitle: "Four disciplines,",
+  skillsSectionTitle: "Three disciplines,",
   skillsSectionEmphasis: "one direction.",
   skillsSectionDesc:
     "Operating at the crossroads of product strategy, agile delivery, and hands-on AI product development — across e-commerce, CRM, and Agentic AI domains.",
@@ -49,13 +51,13 @@ const PORTFOLIO = {
       title: "AI Product Management",
       description:
         "Defining and shipping AI products end-to-end — from problem discovery and roadmap through to LLM integration, voice agent development, and production deployment on modern cloud stacks.",
-      tags: ["Agentic AI", "LLM Integrations", "Voice Agents", "n8n Automation", "Prompt Engineering", "Claude API", "Product Roadmapping", "OKRs"],
+      tags: ["Agentic AI", "LLM Integrations", "Voice Agents", "n8n Automation", "Prompt Engineering", "Claude API", "Product Roadmapping", "OKRs", "Railway", "Google Cloud", "Automation"],
     },
     {
       title: "Agile Project Management",
       description:
         "Managing cross-functional programs across e-commerce, fitness CRM, and AI verticals. Stakeholder alignment, release coordination, risk management, Definition of Done/Ready enforcement, and dependency mapping across distributed global teams.",
-      tags: ["Stakeholder Management", "Release Planning", "Risk Management", "Cross-functional Team Leadership", "Agile Transformation", "Definition of Done/Ready", "OKRs & Metrics", "Confluence", "GCP", "CI/CD"],
+      tags: ["Stakeholder Management", "Release Planning", "Risk Management", "Cross-functional Team Leadership", "Agile Transformation", "Definition of Done/Ready", "OKRs & Metrics", "Confluence", "CI/CD"],
     }
   ],
 
@@ -63,7 +65,7 @@ const PORTFOLIO = {
   // Mirrors the resume's Core Skills & Tooling section — grouped by category
   toolStack: {
     "Agile & Scrum": ["Sprint Planning", "Retrospective Facilitation", "Backlog Refinement", "Impediment Removal", "SAFe", "Agile Transformation", "Servant Leadership", "Kanban", "PI Planning"],
-    "AI & Automation": ["Agentic AI", "LLM Integrations", "Voice Agents", "n8n", "Prompt Engineering", "Claude API"],
+    "AI & Automation": ["Agentic AI", "LLM Integrations", "Voice Agents", "n8n", "Prompt Engineering", "Claude API", "Google Cloud", "Railway"],
     "PM & Strategy": ["Product Roadmapping", "Stakeholder Management", "OKRs & Metrics", "Release Planning", "Risk Management", "Cross-functional Team Leadership", "Agile Coaching", "Definition of Done/Ready"],
     "Agile Tools": ["Jira", "Azure DevOps", "Confluence", "Miro", "Retro.io"],
   },
@@ -89,7 +91,7 @@ const PORTFOLIO = {
     },
     {
       period: ["Jul 2019", "Nov 2022"],
-      company: "Capgemini",
+      company: "Capgemini | HSBC",
       role: "Associate Consultant",
       domains: ["Banking", "Enterprise IT"],
       points: [
@@ -174,8 +176,8 @@ const PORTFOLIO = {
       status: "Certified",
     },
     {
-      title: "Google Project Management Certificate",
-      issuer: "Coursera · Google Career Certificates",
+      title: "Predictive Project Management",
+      issuer: "Project Management Institute (PMI)",
       status: "Certified",
     },
     {
@@ -184,8 +186,13 @@ const PORTFOLIO = {
       status: "Completed",
     },
     {
-      title: "Jira Fundamentals",
-      issuer: "Atlassian University",
+      title: "Jira Badge",
+      issuer: "Atlassian",
+      status: "Certified",
+    },
+    {
+      title: "Agile Project Simulation",
+      issuer: "JP Morgan Chase & Co.",
       status: "Certified",
     },
   ],
@@ -199,6 +206,8 @@ const PORTFOLIO = {
   email: "nikhilatoffice@gmail.com",
   linkedin: "https://www.linkedin.com/in/nikpathak/",
   cvLink: "https://drive.google.com/file/d/1gHuviWEFfeLxMYPLqcRb5bNIExtl-VY_/view?usp=sharing",
+  whatsapp: "+918770189240",
+
 
   // ── Footer ────────────────────────────────────────────────
   footerYear: "2026",
