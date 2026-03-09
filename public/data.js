@@ -56,13 +56,7 @@ const PORTFOLIO = {
       description:
         "Managing cross-functional programs across e-commerce, fitness CRM, and AI verticals. Stakeholder alignment, release coordination, risk management, Definition of Done/Ready enforcement, and dependency mapping across distributed global teams.",
       tags: ["Stakeholder Management", "Release Planning", "Risk Management", "Cross-functional Team Leadership", "Agile Transformation", "Definition of Done/Ready", "OKRs & Metrics", "Confluence", "GCP", "CI/CD"],
-    },
-    {
-      title: "Dev Stack & Tooling",
-      description:
-        "Hands-on across the full delivery stack — from sprint boards to production. Comfortable wiring backends, auth flows, deployments, and AI pipelines without waiting for dev bandwidth.",
-      tags: ["GitHub", "Vercel", "Railway", "Firebase", "GCP", "Supabase (PostgreSQL)", "OAuth", "n8n"],
-    },
+    }
   ],
 
   // ── Tools Stack ───────────────────────────────────────────
@@ -90,7 +84,7 @@ const PORTFOLIO = {
         "Key delivery projects: Diversified Food Supplies (US), Tanishq (US & UAE), IMS: Pipe and Pilings (Canada), TruckPro (US).",
         "Diversified Food Supplies (US) - Facilitated all Agile ceremonies (sprint planning, daily standups, retrospectives, sprint reviews) with >95% on-time completion rate; championed Jira and Confluence dashboards reducing stakeholder status update time by 40%",
         "Tanishq (US & UAE) - Directed end-to-end delivery of the Salesforce e-commerce launch; streamlined collaboration between onshore and offshore teams, achieving zero missed release deadlines.",
-        "•	TruckPro (US) - Managed Agile delivery for B2B & B2C e-commerce apps; improved release predictability by 20% and reduced bug leakage post-release by 15%.",
+        "TruckPro (US) - Managed Agile delivery for B2B & B2C e-commerce apps; improved release predictability by 20% and reduced bug leakage post-release by 15%.",
       ],
     },
     {
@@ -113,7 +107,6 @@ const PORTFOLIO = {
       domains: ["Education"],
       points: [
         "Bachelor of Engineering in Computer Science.",
-        "Built the technical foundation for a career at the intersection of software delivery, product strategy, and AI.",
       ],
     },
   ],
@@ -205,7 +198,7 @@ const PORTFOLIO = {
 
   email: "nikhilatoffice@gmail.com",
   linkedin: "https://www.linkedin.com/in/nikpathak/",
-  cvLink: "https://drive.google.com/file/d/1gHuviWEFfeLxMYPLqcRb5bNIExtl-VY_/view?usp=drive_link",
+  cvLink: "https://drive.google.com/file/d/1gHuviWEFfeLxMYPLqcRb5bNIExtl-VY_/view?usp=sharing",
 
   // ── Footer ────────────────────────────────────────────────
   footerYear: "2026",
