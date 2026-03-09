@@ -5,8 +5,6 @@
 //  ✏️  Just change the values below and redeploy.
 //      No need to touch HTML, CSS, or any other file.
 
-const { useCallback } = require("react");
-
 const PORTFOLIO = {
 
   // ── Personal Info ──────────────────────────────────────────
