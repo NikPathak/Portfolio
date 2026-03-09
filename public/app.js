@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', () => {
     `${d.contactHeadline}<br/><em style="color:#555">${d.contactEmphasis}</em>`;
   document.getElementById('contact-desc').textContent = d.contactDescription;
   document.getElementById('contact-email').href = `mailto:${d.email}`;
-  document.getElementById('contact-whatsapp').href = `https://wa.me/${d.whatsapp.replace('+', '')}`;
+  document.getElementById('contact-whatsapp').href = "https://wa.me/918770189240";
   document.getElementById('contact-linkedin').href = d.linkedin;
   document.getElementById('contact-cv').href = d.cvLink;
 
