@@ -72,7 +72,6 @@ const PORTFOLIO = {
     "AI & Automation": ["Agentic AI", "LLM Integrations", "Voice Agents", "n8n", "Prompt Engineering", "Claude API"],
     "PM & Strategy": ["Product Roadmapping", "Stakeholder Management", "OKRs & Metrics", "Release Planning", "Risk Management", "Cross-functional Team Leadership", "Agile Coaching", "Definition of Done/Ready"],
     "Agile Tools": ["Jira", "Azure DevOps", "Confluence", "Miro", "Retro.io"],
-    "Dev & Cloud": ["GitHub", "Vercel", "Railway", "Firebase", "GCP", "Supabase (PostgreSQL)", "OAuth"],
   },
 
   // ── Experience / Timeline ─────────────────────────────────
@@ -84,14 +83,14 @@ const PORTFOLIO = {
       period: ["Nov 2022", "Present"],
       company: "Solveda Software",
       role: "Sr. Scrum Master",
-      domains: ["E-Commerce", "Agentic AI"],
+      domains: ["E-Commerce"],
       points: [
         "Served as servant leader for 3 global e-commerce Scrum teams (US, UAE & India) totalling 27 members; removed cross-team impediments and applied WIP limits to improve sprint velocity by 22% within 6 months.",
         "Coached Product Owners on backlog prioritisation and user story decomposition; partnered with stakeholders to align product roadmaps to business OKRs — increased feature delivery predictability by 30% and reduced misaligned scope.",
-        "Integrated AI-assisted workflows into sprint ceremonies — LLM tools for auto-generating user stories, summarising retro themes, and flagging delivery risks early.",
-        "Built and shipped Agentic AI product prototypes using n8n automation, voice agents, and LLM integrations — deployed on Railway and Vercel with Supabase backends.",
-        "Facilitated all Agile ceremonies (sprint planning, daily standups, retrospectives, sprint reviews) with >95% on-time completion rate; championed Jira and Confluence dashboards reducing stakeholder status update time by 40%.",
         "Key delivery projects: Diversified Food Supplies (US), Tanishq (US & UAE), IMS: Pipe and Pilings (Canada), TruckPro (US).",
+        "Diversified Food Supplies (US) - Facilitated all Agile ceremonies (sprint planning, daily standups, retrospectives, sprint reviews) with >95% on-time completion rate; championed Jira and Confluence dashboards reducing stakeholder status update time by 40%",
+        "Tanishq (US & UAE) - Directed end-to-end delivery of the Salesforce e-commerce launch; streamlined collaboration between onshore and offshore teams, achieving zero missed release deadlines.",
+        "•	TruckPro (US) - Managed Agile delivery for B2B & B2C e-commerce apps; improved release predictability by 20% and reduced bug leakage post-release by 15%.",
       ],
     },
     {
@@ -132,29 +131,14 @@ const PORTFOLIO = {
       ],
     },
     {
-      title: "AI Sprint Assistant",
-      period: "2024",
-      domain: "Agile · AI",
+      title: "Fitness AI CRM",
+      period: "2026",
+      domain: "Fitness · AI",
       points: [
-        "LLM-powered assistant embedded in Agile workflows — summarises retro themes, flags at-risk tickets, and drafts sprint goals from raw team input. Integrated with Jira API via Firebase backend.",
+        "Built and delivered AI based CRM which has USP for Crowd Management.",
       ],
     },
-    {
-      title: "ATS Resume Optimizer",
-      period: "2024",
-      domain: "Productivity",
-      points: [
-        "Paste a job description, receive keyword suggestions and ATS score — built with Claude API and prompt engineering.",
-      ],
-    },
-    {
-      title: "Backlog Story Generator",
-      period: "2024",
-      domain: "Agile · Productivity",
-      points: [
-        "Converts raw feature requests into formatted user stories with acceptance criteria via LLM + Jira API + n8n automation.",
-      ],
-    },
+
   ],
 
   // ── Projects ──────────────────────────────────────────────
@@ -173,42 +157,17 @@ const PORTFOLIO = {
       stack: ["Voice Agent", "LLM Integration", "n8n", "Supabase", "Railway", "GCP"],
       domain: "Agentic AI",
     },
+
     {
-      badge: "AI Product",
-      glyph: "A",
-      title: "AI Sprint Assistant",
-      description:
-        "An LLM-powered assistant embedded in Agile workflows — summarises retro themes, flags at-risk tickets, and drafts sprint goals from raw team input. Integrated with Jira API via Firebase backend.",
-      stack: ["Claude API", "LLM Integration", "Jira API", "Prompt Eng.", "Firebase"],
-      domain: "Agile · AI",
-    },
-    {
-      badge: "Fitness CRM",
+      badge: "Fitness AI CRM",
       glyph: "F",
-      title: "Fitness Industry CRM — Delivery Lead",
+      title: "Fitness Industry AI Based CRM ",
       description:
-        "Led Agile delivery for a SaaS CRM built for the fitness industry. Owned sprint planning, stakeholder alignment, and release coordination from MVP through scale. Auth via OAuth, deployed on Vercel.",
-      stack: ["Jira", "Azure DevOps", "OAuth", "Vercel", "Firebase", "Confluence"],
+        "Built and delivered AI based CRM which has USP for Crowd Management.",
+      stack: ["Python", "YOLOv8", "Railway", "Supabase", "PowerBI"],
       domain: "Fitness CRM",
     },
-    {
-      badge: "Career",
-      glyph: "R",
-      title: "ATS Resume Optimizer",
-      description:
-        "Paste a job description, get keyword suggestions and an ATS score back — built with prompt engineering to solve my own job search problem.",
-      stack: ["Claude API", "Prompt Eng.", "React", "Vercel"],
-      domain: "Productivity",
-    },
-    {
-      badge: "Agile",
-      glyph: "B",
-      title: "Backlog Story Generator",
-      description:
-        "Converts raw feature requests and product strategy inputs into formatted user stories with acceptance criteria — in seconds. Wired directly to Jira via API and n8n automation.",
-      stack: ["LLM", "Jira API", "n8n", "Automation"],
-      domain: "Agile · Productivity",
-    },
+
   ],
 
   // ── Certifications ────────────────────────────────────────
@@ -217,7 +176,7 @@ const PORTFOLIO = {
 
   certifications: [
     {
-      title: "PSM I — Professional Scrum Master",
+      title: "PSM — Professional Scrum Master",
       issuer: "Scrum.org · Verified credential",
       status: "Certified",
     },
@@ -245,8 +204,8 @@ const PORTFOLIO = {
     "Open to Senior Scrum Master, AI Product Manager, and Agile Project Manager roles across IT, e-commerce, and AI-native product teams.",
 
   email: "nikhilatoffice@gmail.com",
-  linkedin: "https://linkedin.com/in/nikhil-p-672205218",
-  cvLink: "#",
+  linkedin: "https://www.linkedin.com/in/nikpathak/",
+  cvLink: "https://drive.google.com/file/d/1gHuviWEFfeLxMYPLqcRb5bNIExtl-VY_/view?usp=drive_link",
 
   // ── Footer ────────────────────────────────────────────────
   footerYear: "2026",
